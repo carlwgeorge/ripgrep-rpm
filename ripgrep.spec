@@ -1,10 +1,11 @@
 Name: ripgrep
-Version: 0.10.0
+Version: 11.0.1
 Release: 1%{?dist}
 Summary: A search tool that combines the usability of ag with the raw speed of grep
 License: MIT or Unlicense
 URL: https://github.com/BurntSushi/ripgrep
 Source0: https://github.com/BurntSushi/ripgrep/archive/%{version}/ripgrep-%{version}.tar.gz
+BuildRequires: rust >= 1.34.0
 BuildRequires: cargo
 BuildRequires: asciidoc
 %if 0%{?fedora} >= 24
@@ -52,6 +53,9 @@ cargo test
 
 
 %changelog
+* Mon Jun 10 2019 Carl George <carl@george.computer> - 11.0.1-1
+- Latest upstream
+
 * Mon Sep 10 2018 Carl George <carl@george.computer> - 0.10.0-1
 - Latest upstream
 
