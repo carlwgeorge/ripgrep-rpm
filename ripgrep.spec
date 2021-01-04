@@ -1,5 +1,5 @@
 Name: ripgrep
-Version: 11.0.1
+Version: 12.1.1
 Release: 1%{?dist}
 Summary: A search tool that combines the usability of ag with the raw speed of grep
 License: MIT or Unlicense
@@ -53,6 +53,9 @@ cargo test
 
 
 %changelog
+* Thu Dec 31 2020 Konstantin Glukhov <konstantin@konstantin.computer> - 12.1.1-1
+- Latest upstream
+
 * Mon Jun 10 2019 Carl George <carl@george.computer> - 11.0.1-1
 - Latest upstream
 
