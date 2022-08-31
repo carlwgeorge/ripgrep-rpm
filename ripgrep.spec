@@ -1,6 +1,6 @@
 Name: ripgrep
-Version: 12.1.1
-Release: 2%{?dist}
+Version: 13.0.0
+Release: 1%{?dist}
 Summary: A search tool that combines the usability of ag with the raw speed of grep
 License: MIT or Unlicense
 URL: https://github.com/BurntSushi/ripgrep
@@ -53,6 +53,9 @@ cargo test
 
 
 %changelog
+* Wed Aug 31 2022 Carl George <carl@george.computer> - 13.0.0-1
+- Latest upstream
+
 * Fri Aug 26 2022 Jacob Egner <jacob@egner.computer> - 12.1.1-2
 - Enable PCRE2 feature
 
